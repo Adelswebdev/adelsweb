@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Josefin Sans;
+}
+
+.Background{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(/7.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+
+.navbar{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 50px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: orangered;
+    transition: 0.8s;
+}
+
+button{
+    border: none;
+    background-color: orangered;
+    padding: 15px 40px;
+    border-radius: 15px;
+}
+
+button a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+button a:hover{
+    color: black;
+    transition: 0.7s;
+}
+
+.content{
+    color: white;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.content h1{
+    text-transform: uppercase;
+    align-items: center;
+    margin: 40 0 30px 0px;
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+
+span{
+    color: orangered;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+.content p{
+    line-height: 30px;
+    font-size: 20px;
+    margin: 40 0 30px 0px;
+    text-align: center;
+    position: absolute;
+    top: 160px;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    margin: 150px 190px;
+}
+
+.attributes{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    position: relative;
+    top: 240px;
+    align-items: center;
+    padding: 10px 400px 40px 400px;
+    cursor: pointer;
+}
+
+.attributes p{
+    border: 1px solid orangered;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.attributes p:hover{
+    background-color: orangered;
+    transition: 1.0s;
+    border: transparent;
+}
